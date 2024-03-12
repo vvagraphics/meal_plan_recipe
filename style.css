@@ -1,0 +1,66 @@
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.meal {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.meal img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.meal-info {
+  margin-top: 10px;
+}
+
+.meal-meta p {
+  margin: 5px 0; /* Some spacing between meta items */
+}
+
+.meal-meta i {
+  /* Style the icons */
+  margin-right: 5px;
+}
+
+.instructions,
+.nutrition {
+  margin-top: 10px;
+  text-align: start;
+}
+.nutrition {
+  text-align: center;
+}
+
+.expand-button,
+.expand-nutrition {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.meal-section {
+  padding-bottom: 50px;
+}
+.meal-collage {
+  padding-bottom: 50px;
+}
+.meal-tag {
+  padding: 10px;
+}
