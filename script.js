@@ -510,7 +510,7 @@ const days = [
 const today = new Date().getDay(); 
 
 function showMealOfTheDay() {
-    const dayIndex = (new Date().getDay()+4) % 7; 
+    const dayIndex = (new Date().getDay()+ 1) % 7; 
     const dayData = days[dayIndex];
 // console.log(dayIndex);
     mealDisplay.innerHTML = `
