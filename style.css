@@ -47,12 +47,32 @@ body {
   text-align: center;
 }
 
-.expand-button,
+/* .expand-button,
 .expand-nutrition {
   background-color: #eee;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
+} */
+
+.expand-button,
+.expand-nutrition {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.expand-button:hover,
+.expand-nutrition:hover {
+  background-color: #3e8e41;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
 
 .meal-section {
