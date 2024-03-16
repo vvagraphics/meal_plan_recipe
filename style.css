@@ -84,3 +84,13 @@ body {
 .meal-tag {
   padding: 10px;
 }
+.expand-button::before,
+.expand-nutrition::before {
+  content: '+ ';
+  font-size: 18px;
+}
+.instructions[style*='display: block'] + .expand-button::before,
+.nutrition[style*='display: block'] + .expand-nutrition::before {
+  content: '- '; /* Minus sign when expanded */
+  font-size: 18px;
+}
