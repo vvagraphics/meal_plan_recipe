@@ -516,7 +516,7 @@ function showMealOfTheDay() {
     mealDisplay.innerHTML = `
     <div class="meal">
     <div class="meal-collage">
-    <h1>Meal Plan</h1>
+    <h1>Today's Meal Plan</h1>
     <h2>Day ${dayIndex}</h2>
     
       <img src="collage${dayIndex}.jpg" alt="Day ${dayIndex} Meals">
